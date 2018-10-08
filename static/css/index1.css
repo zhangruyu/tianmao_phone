@@ -150,7 +150,6 @@ header .top .con input{
     position: relative;
     top: 0;
     left: 0;
-    box-shadow: 0rem 0.08rem 0.1rem 0 #ccc;
     overflow: hidden;
 }
 .imgs .imgbox{
@@ -158,6 +157,7 @@ header .top .con input{
     margin-left: 0.12rem;
     width: 3.51rem;
     height: auto;
+    box-shadow: 0rem 0.08rem 0.1rem 0 #ccc;
     position: absolute;
     top: 0;
     left: 3.75rem;
