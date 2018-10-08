@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+.Timg{
+    width: 0.44rem;
+    height: 0.44rem;
+    border-radius: 50%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0.44rem;
+    right: 0.05rem;
+    transition: all 0.3s;
+    opacity: 0;
+    z-index: 99;
+}
+.TOP{
+    width: 0.44rem;
+}
+/*头部开始*/
+header{
+    width: 100%;
+    height: 0.9rem;
+    transition: all 0.3s ease 0ms;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index:50;
+}
+header .header{
+    width: 100%;
+    height: 0.9rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FF0036;
+    transition: all 0.3s ease 0ms;
+}
+header .title{
+    width: 100%;
+    height: 0.44rem;
+    display: flex;
+    justify-content: space-between;
+}
+header .left{
+    height: 0.3rem;
+    padding: 0.07rem 0.12rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease 0ms;
+}
+header .left a{
+    display: block;
+    width: 0.3rem;
+    height: 0.3rem;
+    background-image: url("../img/icon.jpg_.webp");
+    background-size: auto 0.3rem;
+    transition: all 0.3s ease 0ms;
+}
+header .title .img1{
+    width: 1.2rem;
+    height: 0.2rem;
+    margin: 0.12rem 0;
+}
+header .title .img1 img{
+    height: 100%;
+}
+header .right{
+    display: block;
+    width: 0.28rem;
+    height: 0.3rem;
+    padding: 0.07rem 0.12rem;
+    line-height: 0.3rem;
+    font-size: 0.14rem;
+    color: #fff;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease 0ms;
+}
+header .top{
+    width: 100%;
+    height: auto;
+    padding: 0 0.05rem;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+header .top .con{
+    width: auto;
+    height: 0.16rem;
+    padding: 0.05rem;
+    margin: 0.03rem auto;
+    background-color: #fff;
+    border-radius: 0.03rem;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.3s ease 0ms;
+}
+header .top .con img{
+    width: 0.15rem;
+    height: 0.16rem;
+    margin-right: 0.05rem;
+}
+header .top .con input{
+    width: 3.15rem;
+    outline: none;
+    border: 0;
+}
+/*头部结束*/
+.ads{
+    width: 100%;
+    height: 0.76rem;
+    display: flex;
+    justify-content: center;
+}
+.ads .box{
+    display: block;
+    width: 0.7rem;
+    height: 0.76rem;
+}
+.ads .box img{
+    width: 0.48rem;
+    height: 0.48rem;
+    margin: 0.05rem 0.11rem 0.02rem;
+}
+.ads .box span{
+    display: block;
+    width: 0.7rem;
+    height: 0.13rem;
+    margin-top: 0.08rem;
+    text-align: center;
+    line-height: 0.13rem;
+    font-size: 0.13rem;
+}
+
+/*轮播图开始*/
+.imgs{
+    width: 3.75rem;
+    height: 1.32rem;
+    margin: 0.1rem auto 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    box-shadow: 0rem 0.08rem 0.1rem 0 #ccc;
+    overflow: hidden;
+}
+.imgs .imgbox{
+    display: block;
+    margin-left: 0.12rem;
+    width: 3.51rem;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 3.75rem;
+}
+.imgs .btns{
+    width: 100%;;
+    height: 0.02rem;
+    position: absolute;
+    bottom: 0.1rem;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+.btns .btn{
+    width: 0.16rem;
+    height: 0.02rem;
+    margin: 0 0.025rem;
+    background-color: #6E6E6E;
+}
+.btns .active{
+    background-color: #fff;
+}
+.adimg{
+    display: block;
+    width: 3.75rem;
+    height: auto;
+    margin: 0.14rem auto 0.08rem;
+}
+/*轮播图结束*/
+
+/*好货特卖开始*/
+.times{
+    width: auto;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    margin: 0 0.12rem 0.06rem;
+    font-size: 0.18rem;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+}
+.img{
+    width: 3.75rem;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.img .time{
+    height: 0.47rem;
+    font-weight: 600;
+    font-size: 0.16rem;
+    position: absolute;
+    line-height: 0.47rem;
+    top: 0.07rem;
+    left: 0.21rem;
+}
+.img .time .box1{
+    margin-right: 0.05rem;
+}
+.img .time .box{
+    width: 0.2rem;
+    height: 0.2rem;
+    margin: 0.13rem 0.02rem;
+    float: left;
+    background-color: #000;
+    font-size: 0.14rem;
+    line-height: 0.2rem;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+}
+.img .time span{
+    float: left;
+}
+.img .imgbox{
+    width: 100%;
+    height: 1.2rem;
+    position: absolute;
+    top: 0.55rem;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+.img .imgbox .boxs{
+    display: block;
+    width: 0.72rem;
+    height: 1.2rem;
+    margin: 0 0.05rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.img .imgbox .boxs span:first-of-type{
+    font-size: 0.1rem;
+    width: 100%;
+    height: 0.24rem;
+    line-height: 0.24rem;
+    text-align: center;
+    color: rgb(255,28,77);
+}
+.img .imgbox .boxs span:last-of-type{
+    font-size: 0.14rem;
+    font-weight: 600;
+    width: 100%;
+    height: 0.14rem;
+    line-height: 0.14rem;
+    text-align: center;
+    color: rgb(51,51,51);
+    margin-bottom: 0.1rem;
+}
+/*好货特卖结束*/
+
+/* 发现好货开始 */
+#finddrand{
+    width: 100%;
+    height: 2.82rem;
+    /* background: red; */
+    margin: 0.1rem auto;
+}
+.findheder{
+    line-height: 0.3rem;
+    margin: 0 0.12rem 0.06rem;
+    font-size: 0.18rem;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+}
+.findtop{
+    width: 3.55rem;
+    height: 1.56rem;
+    padding: 0 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 0.1rem;
+}
+.findleft{
+    background: #F8F8F8;
+}
+.findleft .font1{
+    font-size: 0.16rem;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+    margin: 0.05rem 0.15rem;
+}
+.findleft .font2{
+    color: rgb(113, 112, 112);
+    font-size: 0.12rem;
+    font-weight: 400;
+    margin-bottom: 0.08rem;
+    padding-left: 0.15rem;
+}
+.findleft-left{
+    width: 0.75rem;
+    height: 1.16rem;
+    /* background: #fff; */
+    position: relative;
+    float: left;
+    margin-right: 0.2rem;
+}
+.findleft-left .cls{
+    width: 0.63rem;
+    height: 0.63rem;
+    margin: auto;
+}
+.findleft-left .cls2{
+    width: 0.75rem;
+    height: 0.41rem;
+    margin: auto;
+}
+.findleft-left span{
+    font-size: 0.12rem;
+    color: rgb(51, 51, 51);
+    line-height: 0.12rem;
+    top: 0.82rem;
+    left: 0.12rem;
+    position: absolute;
+}
+.findbottom{
+    width: 3.55rem;
+    height: 0.83rem;
+    margin: 0.1rem auto;
+    padding: 0 0.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.findbottom-left{
+    width: 0.83rem;
+    height: 100%;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around ;
+}
+.findbottom-left img{
+    width: 0.5rem;
+    height: 0.25rem;
+    margin: auto;
+    margin-top: 0.1rem;
+}
+.findbottom-left span{
+    font-size: 0.12rem;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    line-height: 0.24rem;
+    /*float: left;*/
+    /*margin:0.1rem 0 0 0.1rem;*/
+    /*display: block;*/
+}
+/* 发现好货结束 */
+
+/* 官方自营开始 */
+#direct{
+    width: 100%;
+    height: 3.25rem;
+}
+.directspan{
+    white-space: pre-wrap;
+    border: 0px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-shrink: 0;
+    font-size: 0.18rem;
+    color: rgb(51, 51, 51);
+    text-align: left;
+    font-weight: 600;
+    margin-left: 0.06rem;
+    padding: 0.1rem 0.06rem 0.06rem 0;
+}
+.directbox{
+    width: 3.63rem;
+    height: 2.79rem;
+    /* background: red; */
+    margin: auto;
+}
+.directbox-left{
+    height: 1.335rem;
+    width: 1.725rem;
+    margin-right: 0.02rem;
+    margin-left: 0.04rem;
+    margin-bottom: 0.06rem;
+    background: #F7F7F7;
+    float: left;
+}
+.directbox-left .cls1{
+    display: block;
+    flex-direction: column;
+    font-size: 0.16rem;
+    color: rgb(32, 32, 32);
+    text-align: left;
+    padding-left: 0.15rem;
+    font-weight: 600;
+    padding-top: 0.06rem;
+}
+.directbox-left .cls2{
+    display: block;
+    font-size: 0.12rem;
+    color: rgb(113, 112, 112);
+    text-align: left;
+    padding-left: 0.15rem;
+    line-height: 0.15rem;
+    margin-top: 0.05rem;
+}
+.directbox-left img{
+    float: left;
+    padding-left: 0.15rem;
+    padding-top: 0.15rem;
+    width: 0.63rem;
+    height: 0.63rem;
+    background-color: #F7F7F7
+}
+/* 官方自营结束 */
+
+/*为你精选开始*/
+.choice{
+    width: 3.53rem;
+    height: 2.91rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.choice .choicebox{
+    width: 1.68rem;
+    height: 2.79rem;
+    border: 0.01rem solid rgb(237,237,237);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.choice .choicebox .imgbox{
+    width: 1.38rem;
+    height: 1.38rem;
+    padding: 0.15rem;
+    background-color: rgba(0,0,0,0.03);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.choice .choicebox .imgbox .font{
+    background-color: rgb(136,163,192);
+    font-size: 0.1rem;
+    height: 0.18rem;
+    padding: 0 0.05rem;
+    line-height: 0.18rem;
+    color: #fff;
+    position: absolute;
+    bottom: -0.09rem;
+    left: 0.1rem;
+    display: flex;
+}
+.choice .choicebox .info{
+    width: 1.48rem;
+    height: 0.4rem;
+    padding: 0.15rem 0.1rem 0;
+    font-size: 0.14rem;
+    line-height: 0.2rem;
+}
+.choice .choicebox .more{
+    width: 1.48rem;
+    height: 0.4rem;
+    position: absolute;
+    bottom: 0;
+    left: 0.1rem;
+}
+.choice .choicebox .more .price{
+    display: block;
+    height: 0.4rem;
+    font-size: 0.16rem;
+    font-weight: 600;
+    line-height: 0.4rem;
+    color: red;
+    float: left;
+}
+.choice .choicebox .more img{
+    height: 0.4rem;
+    float: right;
+}
+/*为你精选结束*/
