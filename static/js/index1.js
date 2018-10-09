@@ -9,7 +9,7 @@ $(function () {
     var TOP=document.querySelector("#TIME").offsetTop;
     $(window).scroll(function(){
         var top = $(this).scrollTop();
-        if(top>top1){
+        if(top>0){
             $(header).css({
                 position:"fixed",
                 top:"-0.32rem",
